@@ -2,7 +2,7 @@
 
 html,
 body {
-    font-family: '';
+    font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -11,7 +11,11 @@ h1 {
     color: $main-color;
 }
 h2 {
-    color: $main-color;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 108%;
+    letter-spacing: -0.02em;
+    color: $secondary-color;
 }
 h3 {
     color: $main-text;
@@ -39,11 +43,7 @@ h3 {
     }
 }
 .section {
-    margin-top: $section-top;
 
-    @media(max-width: $breakpoint768) {
-        margin-top: 90px;
-    }
 }
 
 .left-padding {

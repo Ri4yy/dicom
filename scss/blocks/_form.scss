@@ -1,0 +1,58 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &__input {
+        border-radius: 20px;
+        padding: 20px 24px;
+        background: #F7F8F8;    
+        padding: 20px 24px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 171%;
+        letter-spacing: -0.02em;
+        color: #9a9a9a;
+
+        &::placeholder {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 171%;
+            letter-spacing: -0.02em;
+            color: #9a9a9a;
+        }
+    }
+    &__textarea {
+        border-radius: 20px;
+        padding: 20px 24px;
+        background: #F7F8F8;   
+        resize: none;
+        min-height: 160px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 171%;
+        letter-spacing: -0.02em;
+        color: #9a9a9a;
+
+        &::placeholder {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 171%;
+            letter-spacing: -0.02em;
+            color: #9a9a9a;
+        }
+    }
+    &__btn {
+        border-radius: 20px;
+        padding: 20px 24px;
+        background: $secondary-color;
+
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 171%;
+        letter-spacing: -0.02em;
+        color: #fff;
+    }
+}

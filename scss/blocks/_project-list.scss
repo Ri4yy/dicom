@@ -1,0 +1,61 @@
+.project-list {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 40px 36px;
+        border-radius: 24px;
+
+        &:nth-of-type(even) {
+            background: #f7f8f8;
+        }
+    }
+
+    &__left, &__body {
+        width: 50%;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+    &__circle {
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+
+        &--dark-blue {
+            background: $dark-blue;        
+        }
+        &--azure {
+            background: $azure;  
+        }
+        &--blue {
+            background: $blue;  
+        }
+        &--purple {
+            background: $purple;  
+        }
+        &--gray {
+            background: #bec1c2;  
+        }
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        color: $secondary-color;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 122%;
+        letter-spacing: -0.03em;
+        color: $accent-color;
+    }
+}

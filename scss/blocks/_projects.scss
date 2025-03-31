@@ -1,0 +1,27 @@
+.projects {
+
+    &__top {
+
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    &__subtitle {
+        margin-top: 12px;
+
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.03em;
+        color: $accent-color;
+    }
+
+    &__wrapper {
+        margin-top: 40px;
+    }
+    &__bottom {
+        margin-top: 40px;
+    }
+}

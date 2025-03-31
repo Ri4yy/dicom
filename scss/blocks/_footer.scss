@@ -1,0 +1,27 @@
+.footer {
+    overflow: hidden;
+    position: relative;
+
+    padding-top: 72px;
+    min-height: 320px;
+
+    &::after {
+        content: url(/assets/img/bg/footer-bg.svg);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -100px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__copyright {
+        font-weight: 300;
+        font-size: 16px;
+        color: #3d3d3d;
+    }
+}
